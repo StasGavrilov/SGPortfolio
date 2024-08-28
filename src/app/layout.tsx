@@ -25,10 +25,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
 
       <body>
-        <Header />
-        <main>
-          {children}
-        </main>
+        <Header>
+          <main>
+            {children}
+          </main>
+        </Header>
       </body>
     </html>
   )
