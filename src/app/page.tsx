@@ -1,8 +1,9 @@
-import Header from "@/components/header/Header"
+import About from "./about/page"
 
 export default function Home() {
   return (
     <div>
+      <About/>
     </div>
   )
 }

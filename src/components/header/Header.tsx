@@ -12,6 +12,10 @@ export default function Header({ children }: HeaderProps) {
                 <Main />
                 <NavBar />
             </div>
+
+            <div className="ml-[320px] w-full h-full">
+                {children}
+            </div>
         </div>
     )
 }

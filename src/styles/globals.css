@@ -16,6 +16,6 @@ body {
 main {
     flex-grow: 1;
     overflow-y: auto;
-    padding-left: 340px;
+    padding: 0 10px;
     height: 100%;
 }
